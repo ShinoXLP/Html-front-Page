@@ -1,0 +1,149 @@
+/*
+developed by Джейсон#1312
+Designed by Лука#8888
+Not approved for sale
+For HTML / CSS learning
+https://github.com/ShinoXLP
+https://github.com/PrimeLuca
+*/
+
+@font-face {
+	font-family: 'SundayVibes';
+	src: url(font/SundayVibes.ttf);
+  }
+
+body{
+	margin: 130px;
+	padding: 350px;
+	top: 100px;
+	background: url(images/background.png);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.loginbox{
+	width: 620px;
+	height: 420px;
+	background: rgba(0, 0, 0, 0.842);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 16px;
+	border-color: #5eb8f5;
+	border-width: 3px;
+	border-style: solid;
+	box-shadow: 10px 10px 15px rgb(22, 22, 22);
+
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px) ;
+}
+
+.loginbox h1{
+	margin: 0;
+	padding: 2 2 22px;
+	text-align: center;
+	font-family: 'SundayVibes';
+	font-size: 70px;
+	letter-spacing: 4px;
+}
+
+.loginbox p{
+	font-display: center;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.loginbox input[type="text"], input[type="passwort"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+	display: inline-block;
+	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
+	border: 0.125rem solid #5eb8f5;
+	border-radius: .5rem;
+	background-color: #5eb8f5;
+	color: #fff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	transition: all 0.2s;
+
+}
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #0e5f96;
+	color: rgb(255, 255, 255);
+}
+
+.loginbox a
+{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+/*.loginbox a:hover
+{
+	color: #fff
+}
+
+.loginbox a:hover
+{
+	color: rgb(183, 0, 255)
+}
+*/
+.btn-solid-lg2 {
+	display: inline-block;
+	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
+	border: 0.125rem solid #5eb8f5;
+	border-radius: 0.25rem;
+	background-color: #5eb8f5;
+	color: #fff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+	
+	
+}
+
+.btn-solid-lg2:hover {
+	background-color: transparent;
+	color: #5eb8f5;
+	text-decoration: none;
+}
+
+.btn-solid-lg2 {
+	margin-right: 0.5rem;
+	margin-bottom: 1.25rem;
+}
